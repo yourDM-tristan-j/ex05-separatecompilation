@@ -121,30 +121,24 @@ like this:
 
 ```bash
 Running main() from gtest_main.cc
-[==========] Running 5 tests from 1 test case.
+[==========] Running 2 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 5 tests from MovieReviewsTest
-[ RUN      ] MovieReviewsTest.DefaultCase
-[       OK ] MovieReviewsTest.DefaultCase (0 ms)
-[ RUN      ] MovieReviewsTest.ThousandReviews
-[       OK ] MovieReviewsTest.ThousandReviews (1 ms)
-[ RUN      ] MovieReviewsTest.ErrorCheckingSizeTooBig
-[       OK ] MovieReviewsTest.ErrorCheckingSizeTooBig (14 ms)
-[ RUN      ] MovieReviewsTest.ErrorCheckingNullReviews
-[       OK ] MovieReviewsTest.ErrorCheckingNullReviews (5 ms)
-[ RUN      ] MovieReviewsTest.ErrorCheckingNullUserReview
-[       OK ] MovieReviewsTest.ErrorCheckingNullUserReview (1 ms)
+[----------] 2 tests from MovieReviewsTest
+[ RUN      ] MovieReviewsTest.F
+[       OK ] MovieReviewsTest.F (0 ms)
+[ RUN      ] MovieReviewsTest.G
+[       OK ] MovieReviewsTest.G (1 ms)
 
 Your unit test score is 20 out of 20
 The assignment is worth a total of 25 where the remaining points
 comes from grading related to documentation, algorithms, and other
 criteria.
 
-[----------] 5 tests from MovieReviewsTest (21 ms total)
+[----------] 2 tests from MovieReviewsTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 5 tests from 1 test case ran. (21 ms total)
-[  PASSED  ] 5 tests.
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
 
 Process finished with exit code 0
 ```
