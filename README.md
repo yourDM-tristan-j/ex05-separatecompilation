@@ -44,8 +44,8 @@ This project acted as a basis for this assignment, and as such the description h
 
 Writing the code for this project is very simple. You will create five files: separate headers for each of the `f` and `g` functions and implementations of these functions in the corresponding `.cc` files, and `main.cc`.
 
-You will write one function called `predictEmptyReviews` that takes all the reviews we already have,
-a set of user reviews, and the total number of reviews. There are only six movies, and only one user review, for each of the 6 movies.
+You will write two functions called `A::f` and `A::g`, each in their own `.cc` file. These two functions return the path
+to their implementation file, as explaine above.
 
 ##### f.h and g.h
 
@@ -63,13 +63,13 @@ Repeat this same process for `g.h`
 
 ##### Implementation
 
-Next you'll need to create the implementation, separately from the declaration, of the computeWindChillIndex. This can be done in any file in the `src` directory as long as it has the extension `.cc` and is not named `main.cc`. 
+Next you'll need to create the implementation, separately from the declaration, of the `A::f` and `A::g` functions. This should be done in `f.cc` and `g.cc` files, respectively, in the `src` directory. Make sure these files have the extension `.cc` and are not named `main.cc`. 
 
 In CLion in the project explorer, right-click the `src` directory
 and chose `New => C++ Source File`. 
 
 Under **Name** fill in
-f (or any other name besides `main`). CLion will add the extension, but by default 
+f. CLion will add the extension, but by default 
 adds the `.cpp` extension. All projects in this class will
 use the `.cc` extension. Select `.cc` in the **Type** drop-down
 and press **OK**. You should now see the file `f.cc` (or whatever you named the file) in
