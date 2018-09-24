@@ -15,9 +15,9 @@ This assignment is based on the Programming Project 1 from Chapter 11 of the tex
 This exercise is intended to illustrate namespaces and separate compilation in your
 development environment. You should use the development environment you regularly 
 use in this course for this exercise. In a file `f.h` , place a declaration of `std::string f( )`
-in namespace `edu::sbcc::cs140::A`. In a file `g.h`, place a declaration of `std::string g( )` in namespace `A` . In files
+in namespace `edu::vcccd::vc::csv13::A`. In a file `g.h`, place a declaration of `std::string g( )` in namespace `A` . In files
 `f.cc` and `g.cc` , place the definitions of `std::string f( )` and `std::string g( )`, respectively.
-Place the definitions of `std::string f( )` and `std::string g( )` in namespace `edu::sbcc::cs140::A` . The functions
+Place the definitions of `std::string f( )` and `std::string g( )` in namespace `edu::vcccd::vc::csv13::A` . The functions
 should return the file they are contained in using the `__FILE__` macro defined as part
 of the standard C++. Like:
 
@@ -34,7 +34,7 @@ on Linux and Mac and something like:
 on Windows. The unit tests included with this project should work with either output.
 
 In another file, `main.cc` , put your main function, `#include` the minimum collection of files to provide
-access to the names from namespace `edu::sbcc::cs140::A` . In your main function call the functions
+access to the names from namespace `edu::vcccd::vc::csv13::A` . In your main function call the functions
 `f` then `g` . Compile, link, and execute using your development environment. While this executable will
 not be part of the testing, I will check for it as part of the last 5 points of the assignment.
 
@@ -57,7 +57,7 @@ and chose `New => C++ Header File`.
 Under **Name** fill in f. CLion will add the `.h` extension. Press **OK**. You should now see the file `f.h` in
 the project explorer in the `include` directory.
 
-Write your declaration of the `f` in here in the `edu::sbcc::cs140::A` namespace.
+Write your declaration of the `f` in here in the `edu::vcccd::vc::csv13::A` namespace.
 
 Repeat this same process for `g.h`
 
@@ -75,7 +75,7 @@ use the `.cc` extension. Select `.cc` in the **Type** drop-down
 and press **OK**. You should now see the file `f.cc` (or whatever you named the file) in
 the project explorer in the `src` directory.
 
-Write your implementation of the `f` in here in the `edu::sbcc::cs140::A` namepspace.
+Write your implementation of the `f` in here in the `edu::vcccd::vc::csv13::A` namepspace.
 
 Repeat this same process for `g.cc`
 

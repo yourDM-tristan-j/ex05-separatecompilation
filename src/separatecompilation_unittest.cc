@@ -47,8 +47,8 @@
 #include "gtest/gtest.h"
 namespace {
 
-    using edu::sbcc::cs140::A::f;
-    using edu::sbcc::cs140::A::g;
+    using edu::vcccd::vc::csv13::A::f;
+    using edu::vcccd::vc::csv13::A::g;
 
 // Tests edu::sbcc:cs140::String.
 
