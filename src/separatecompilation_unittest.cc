@@ -39,8 +39,8 @@
 #include <regex>
 #include <functional>
 
-#include "g.h"
-#include "f.h"
+#include "../include/g.h"
+#include "../include/f.h"
 
 #include "GTestNoDeath.h"
 
@@ -57,6 +57,8 @@ namespace {
     using std::string;
 
     using namespace ::testing_internal;
+    
+    typedef uint64_t uint;
 
     class MovieReviewsTest : public ::testing::Test {
     protected:
